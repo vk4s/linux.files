@@ -14,6 +14,12 @@ tmux source ~/.tmux.conf
 
 check [.tmux.conf](.tmux.conf) for sample.
 
+Make symlink to `/root/` as
+
+```$
+sudo ln -s /home/ubuntu/..tmux.conf /root/
+```
+
 ---
 
 # ZSH
@@ -54,6 +60,12 @@ Detailed instructions can be found [HERE](https://linuxhint.com/configure_nano_t
 
 Or download `.nanorc` from this repo
 
+Make a symlink to `/root/` to use as:
+
+```$
+sudo ln -s /home/ubuntu/.nanorc /root/
+```
+
 ---
 
 # VIM Configuration
@@ -67,3 +79,14 @@ wget https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 Copy `.vimrc` to `~/` (user directory)
 Them open `vim` and run `:PlugInstall`
+
+<br>
+<hr>
+<br>
+<div align='center'>
+
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+![made-using-Markdown](https://img.shields.io/badge/Made%20using-Markdown-1f425f.svg)
+[![made-by-Vikash](https://img.shields.io/badge/with%20💖%20by-Vikash-cc62c3.svg)](http://vkash.lorbic.com)
+
+</div>
