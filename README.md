@@ -17,7 +17,7 @@ check [.tmux.conf](.tmux.conf) for sample.
 Make symlink to `/root/` as
 
 ```$
-sudo ln -s /home/ubuntu/..tmux.conf /root/
+sudo ln -s /home/ubuntu/.tmux.conf /root/
 ```
 
 ---
@@ -51,6 +51,8 @@ sudo chsh -s $(which zsh) <username>
 ```$
 sudo chsh -s $(which zsh)
 ```
+
+Reinstall for **`root`** user.
 
 ---
 
